@@ -30,7 +30,6 @@ export default function LoginForm() {
 
       if (response.ok) {
         const loginResponse: LoginResponse = await response.json()
-        console.log(loginResponse)
         window.sessionStorage.setItem('login-hash', loginResponse.loginHash!)
         window.location.href = '/profile'
       } else {

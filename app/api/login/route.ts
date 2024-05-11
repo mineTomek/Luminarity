@@ -25,10 +25,6 @@ export async function POST(request: NextRequest) {
     response = {
       success: false,
       message: 'Incorrect credentials',
-      data: {
-        enteredCredentials: loginData,
-        correctCredentials: { username: env.USERNAME, password: env.PASSWORD },
-      },
     }
   }
 

@@ -25,7 +25,6 @@ export default function RetriveDataModule() {
         setHasHash(true)
 
         const loginResponse: DataResponse = await response.json()
-        console.log(loginResponse.data)
 
         setData(loginResponse.data)
 
