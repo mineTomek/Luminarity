@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.no-scrollbar::-webkit-scrollbar {
+  @apply hidden;
+}
+
+input {
+  @apply rounded-full bg-white p-3 shadow-inner;
+}
+
+.text-shadow {
+  /* text-shadow: 0 25px 50px -12px var(--tw-shadow-color); */
+  text-shadow: 0 0 50px var(--tw-shadow-color);
+}
+
+form {
+  --tw-shadow: var(--tw-shadow-colored);
+}
