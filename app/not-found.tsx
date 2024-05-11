@@ -13,7 +13,7 @@ export default function NotFound() {
           </h1>
           <CenterBox>
             <p className="mx-auto">Page not found</p>
-          <Button text='Home Page' onClick={() => window.location.href = '/'}/>
+          <Button onClick={() => window.location.href = '/'}>Home page</Button>
         </CenterBox>
         </div>
       </div>

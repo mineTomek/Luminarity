@@ -69,8 +69,8 @@ export default function RetriveDataModule() {
             ref={outputRef}
           />
           <div className="flex gap-3">
-            <Button text="Retrive Data" onClick={handleDataRetrival} />
-            <Button text="Copy Data" onClick={handleCopyData} />
+            <Button onClick={handleDataRetrival}>Retrive Data</Button>
+            <Button onClick={handleCopyData}>Copy Data</Button>
           </div>
         </div>
       </CenterBox>
