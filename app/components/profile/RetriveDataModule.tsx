@@ -63,8 +63,9 @@ export default function RetriveDataModule() {
         <div className="flex flex-col gap-3">
           <h2 className="text-lg font-semibold">Data Retrival</h2>
           <textarea
-            className="rounded-lg p-3 shadow-md"
+            className="w-full rounded-lg p-3 shadow-md dark:bg-zinc-800 dark:shadow-inner dark:shadow-zinc-700"
             readOnly
+            placeholder="No data loaded"
             ref={outputRef}
           />
           <div className="flex gap-3">

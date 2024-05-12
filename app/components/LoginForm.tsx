@@ -44,7 +44,7 @@ export default function LoginForm() {
   }
 
   return (
-    <div className="flex h-full w-full flex-col bg-white">
+    <div className="flex h-full w-full flex-col bg-white dark:bg-zinc-950">
       <CenterBox>
         <form onSubmit={handleSubmit} className="flex flex-col gap-3">
           <input
@@ -62,7 +62,10 @@ export default function LoginForm() {
           <input type="submit" value="Login" />
         </form>
       </CenterBox>
-      <CenterBox opacity={incorrectCredentials ? 1 : 0} color={CenterBoxColor.ERROR}>
+      <CenterBox
+        opacity={incorrectCredentials ? 1 : 0}
+        color={CenterBoxColor.ERROR}
+      >
         <span className="mx-3 text-sm">Username or password is incorrect</span>
       </CenterBox>
     </div>
