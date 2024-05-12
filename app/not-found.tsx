@@ -1,10 +1,10 @@
-"use client"
+'use client'
 
-import Button from "./components/Button";
-import CenterBox from "./components/CenterBox";
+import Button from './components/Button'
+import CenterBox from './components/CenterBox'
 
 export default function NotFound() {
-    return (
+  return (
     <main>
       <div className="w-full bg-white">
         <div className="to z-50 grid h-dvh place-items-center content-center bg-gradient-to-b from-primary-100/90 to-transparent">
@@ -13,8 +13,10 @@ export default function NotFound() {
           </h1>
           <CenterBox>
             <p className="mx-auto">Page not found</p>
-          <Button onClick={() => window.location.href = '/'}>Home page</Button>
-        </CenterBox>
+            <Button onClick={() => (window.location.href = '/')}>
+              Home page
+            </Button>
+          </CenterBox>
         </div>
       </div>
     </main>
