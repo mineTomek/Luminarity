@@ -10,6 +10,11 @@ input {
   @apply rounded-full bg-white p-3 shadow-inner dark:bg-zinc-800 dark:shadow-zinc-700;
 }
 
+:-moz-ui-invalid {
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
 .text-shadow {
   /* text-shadow: 0 25px 50px -12px var(--tw-shadow-color); */
   text-shadow: 0 0 50px var(--tw-shadow-color);
