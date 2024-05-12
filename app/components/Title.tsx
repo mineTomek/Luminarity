@@ -1,5 +1,5 @@
 export default function Title(props: {
-  children: JSX.Element | string
+  children: string | string[]
   small?: boolean
 }) {
   return (
