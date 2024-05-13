@@ -6,7 +6,7 @@ export class CenterBoxColor {
 export default function CenterBox(props: {
   opacity?: number
   color?: string
-  children: JSX.Element | JSX.Element[]
+  children: any
 }) {
   const colorVariants: { [id: string]: string } = {
     primary:
