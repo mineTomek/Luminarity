@@ -62,12 +62,14 @@ export default function RetriveDataModule() {
       <CenterBox>
         <div className="flex flex-col gap-3">
           <h2 className="text-lg font-semibold">Data Retrival</h2>
-          <textarea
-            className="min-h-12 w-full rounded-lg p-3 shadow-md no-scrollbar focus:outline-none dark:bg-zinc-800 dark:shadow-inner dark:shadow-zinc-700"
-            readOnly
-            placeholder="No data loaded"
-            ref={outputRef}
-          />
+          <div className="relative after:pointer-events-none after:invisible after:absolute after:bottom-[2.5px] after:right-0 after:z-10 after:h-5 after:w-5 after:bg-white after:text-center after:text-sm after:content-['↓'] sm:after:visible dark:after:bg-zinc-800">
+            <textarea
+              className="min-h-12 w-full rounded-lg p-3 shadow-md no-scrollbar focus:outline-none sm:rounded-br-none dark:bg-zinc-800 dark:shadow-inner dark:shadow-zinc-700"
+              readOnly
+              placeholder="No data loaded"
+              ref={outputRef}
+            />
+          </div>
           <div className="flex gap-3">
             <Button onClick={handleDataRetrival}>Retrive Data</Button>
             <Button onClick={handleCopyData}>Copy Data</Button>
