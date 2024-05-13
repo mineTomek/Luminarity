@@ -20,6 +20,10 @@ input {
   text-shadow: 0 0 50px var(--tw-shadow-color);
 }
 
+::-webkit-resizer {
+  @apply hidden;
+}
+
 form {
   --tw-shadow: var(--tw-shadow-colored);
 }
