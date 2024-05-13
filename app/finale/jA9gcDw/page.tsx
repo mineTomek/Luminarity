@@ -1,9 +1,14 @@
 'use client'
 
+import { useEffect } from 'react'
 import CenterBox from './../../components/CenterBox'
 import Title from './../../components/Title'
 
 export default function PrimaryEnding() {
+  useEffect(() => {
+    window.localStorage.setItem('ending-1', '1')
+  }, [])
+
   return (
     <main>
       <div className="w-full bg-white dark:bg-zinc-950">
