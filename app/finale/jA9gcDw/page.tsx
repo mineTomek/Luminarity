@@ -3,6 +3,7 @@
 import { useEffect } from 'react'
 import CenterBox from './../../components/CenterBox'
 import Title from './../../components/Title'
+import Button from '@/app/components/Button'
 
 export default function PrimaryEnding() {
   useEffect(() => {
@@ -21,6 +22,7 @@ export default function PrimaryEnding() {
               to work as <b>Investigation Assistants</b> at Luminarity 1C, and
               we are sure you will get a promotion soon.
             </p>
+            <Button onClick={() => window.location.href}>Home Page</Button>
           </CenterBox>
         </div>
       </div>
