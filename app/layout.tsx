@@ -14,7 +14,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className='no-scrollbar'>
       <body
         className={`${inter.className} overflow-x-hidden bg-primary-100/90 dark:bg-primary-950`}
       >
