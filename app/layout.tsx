@@ -18,7 +18,9 @@ export default function RootLayout({
       <body
         className={`${inter.className} overflow-x-hidden bg-primary-100/90 dark:bg-primary-950`}
       >
-        {children}
+        <main>
+          <div className="w-screen bg-white dark:bg-zinc-950">{children}</div>
+        </main>
       </body>
     </html>
   )
