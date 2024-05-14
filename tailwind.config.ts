@@ -73,10 +73,10 @@ const config: Config = {
         'vw-90': '90vw',
       },
       fontSize: {
-        'tl': '15vw',
-        'tm': '7vw',
-        'ts': '3vw'
-      }
+        tl: '15vw',
+        tm: '7vw',
+        ts: '3vw',
+      },
     },
   },
   plugins: [
