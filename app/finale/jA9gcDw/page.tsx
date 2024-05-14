@@ -13,8 +13,8 @@ export default function PrimaryEnding() {
 
   return (
     <HeroSection>
-      <Title sizeClass="text-[7vw]">You{"'"}ve passed the quest!</Title>
-      <Title sizeClass="text-[3vw]">Ending 1/2</Title>
+      <Title sizeClass="text-tm">You{"'"}ve passed the quest!</Title>
+      <Title sizeClass="text-ts">Ending 1/2</Title>
       <CenterBox>
         <p className="mx-auto max-w-vw-60">
           You have reached the end. All the participants have an opportunity to

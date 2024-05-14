@@ -6,7 +6,7 @@ export default function Profile() {
   return (
     <>
       <HeroSection heightClass="h-dvh-40">
-        <Title sizeClass="text-[8vw]">Profile</Title>
+        <Title sizeClass="text-tl">Profile</Title>
       </HeroSection>
       <div className="flex min-h-dvh-60 flex-col gap-8">
         <RetriveDataModule />

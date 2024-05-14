@@ -13,8 +13,8 @@ export default function SecondaryEnding() {
 
   return (
     <HeroSection>
-      <Title sizeClass="text-[7vw]">You{"'"}ve passed the quest!</Title>
-      <Title sizeClass="text-[3vw]">Ending 2/2</Title>
+      <Title sizeClass="text-tm">You{"'"}ve passed the quest!</Title>
+      <Title sizeClass="text-ts">Ending 2/2</Title>
       <CenterBox>
         <p className="mx-auto max-w-vw-60">
           You have reached the second ending. In this parallel universe, all the
