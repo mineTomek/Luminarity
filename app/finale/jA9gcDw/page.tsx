@@ -16,7 +16,7 @@ export default function PrimaryEnding() {
       <Title sizeClass="text-[7vw]">You{"'"}ve passed the quest!</Title>
       <Title sizeClass="text-[3vw]">Ending 1/2</Title>
       <CenterBox>
-        <p className="mx-auto max-w-[60vw]">
+        <p className="mx-auto max-w-vw-60">
           You have reached the end. All the participants have an opportunity to
           work as <b>Investigation Assistants</b> at Luminarity 1C, and we are
           sure you will get a promotion soon.

@@ -9,7 +9,7 @@ export default function Button(props: {
     <button
       className={
         'mx-auto rounded-full bg-primary-100 p-3 shadow-inner dark:bg-zinc-800 dark:shadow-zinc-700 ' +
-        (!props.autoWidth && 'w-[8rem]')
+        (!props.autoWidth && 'w-32')
       }
       onClick={props.onClick}
     >

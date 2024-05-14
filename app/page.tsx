@@ -31,14 +31,14 @@ export default function Home() {
 
   return (
     <>
-      <HeroSection heightClass='h-[40dvh]'>
+      <HeroSection heightClass="h-dvh-40">
         <Title>Luminarity</Title>
       </HeroSection>
-      <div className={endings[1] || endings[2] ? 'h-[40dvh]' : 'h-[60dvh]'}>
+      <div className={endings[1] || endings[2] ? 'h-dvh-40' : 'h-dvh-60'}>
         <LoginForm />
       </div>
       {(endings[1] || endings[2]) && (
-        <div className="h-[20dvh]">
+        <div className="h-dvh-20">
           <CenterBox>
             <div className="flex gap-3">
               {endings[1] && (

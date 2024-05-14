@@ -16,7 +16,7 @@ export default function SecondaryEnding() {
       <Title sizeClass="text-[7vw]">You{"'"}ve passed the quest!</Title>
       <Title sizeClass="text-[3vw]">Ending 2/2</Title>
       <CenterBox>
-        <p className="mx-auto max-w-[60vw]">
+        <p className="mx-auto max-w-vw-60">
           You have reached the second ending. In this parallel universe, all the
           participants have an opportunity to work as{' '}
           <b>Chief Investigation Officers</b> at Luminarity 1C, and we are sure
